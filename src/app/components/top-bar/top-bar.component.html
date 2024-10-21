@@ -1,1 +1,15 @@
-<p>top-bar works!</p>
+<div class="top-bar">
+  <img [src]="logo" class="logo">
+  <div class="nav-action-group">
+    <span routerLink="/" class="nav-action">
+      Home
+    </span>
+    <span routerLink="/recipes" class="nav-action">
+      Your Recipes
+    </span>
+    <span class="nav-search">
+      <img src="../../../assets/icons/magnifying-glass-thin-svgrepo-com.svg" alt="">
+      <input type="text" placeholder="Find your recipe">
+    </span>
+  </div>
+</div>

@@ -1,0 +1,55 @@
+.top-bar {
+  padding: 10px 2% 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  .logo {
+    height: 50px;
+  }
+}
+.nav-action-group {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  .nav-action {
+    letter-spacing: 0.06em;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    a {
+      text-decoration: none;
+    }
+    a:active {
+      color: inherit;
+    }
+  }
+  .nav-action:hover {
+    cursor: pointer;
+    color: rgb(251, 140, 35);
+  }
+  .nav-search {
+    position: relative;
+    width: 400px;
+    img {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+    input {
+      width: 100%;
+      border-radius: 4px;
+      font-size: 16px;
+      padding: 12px 20px 12px 40px;
+      border: none;
+      border-width: 0;
+      background: #f3f2f0;
+    }
+    input:focus {
+      outline: none;
+      background: #ffffff;
+      border: 2px solid #6b9bd2;
+    }
+  }
+}
